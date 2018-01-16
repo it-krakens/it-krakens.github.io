@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> 
+	<link rel="stylesheet" href="style.css">
+</head>
+<body> 
+<div class="navbar-fixed">
+	<nav>
+	<div class="nav-wrapper">
+		<a href="#" class="brand-logo"><img src="n9qdpfw4kwsjqox0lymi.png" alt="" height="75" width="100"></a>
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		<ul class="right hide-on-med-and-down">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About US</a></li>
+			<li><a href="#">CallBack</a></li>
+			<li><a href="#">Project</a></li>
+		</ul>
+		<ul class="side-nav" id="mobile-demo">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About US</a></li>
+			<li><a href="#">CallBack</a></li>
+			<li><a href="#">Project</a></li>
+		</ul>
+	</div>
+</nav>
+	</div>
+		<div class="carousel carousel-slider">
+			<a href="#one!" class="carousel-item"><img src="1.jpg" alt=""></a>
+			<a href="#two!" class="carousel-item"><img src="2.jpg" alt=""></a>
+			<a href="#three!" class="carousel-item"><img src="3.jpg" alt=""></a>
+		</div>
+<div class="container">
+		<div class="row">
+				<div class="col xl3 l4 m6 s12 center-align card">
+					<img src="n9qdpfw4kwsjqox0lymi.png" width="100" height="80">
+					<h4>lorem ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, adipisci eum non quis, hic ut. Tenetur nisi sunt dignissimos sed et accusamus corporis, enim saepe?</p>
+				</div>
+				<div class="col xl3 l4 m6 s12 card center-align">
+					<img src="n9qdpfw4kwsjqox0lymi.png" width="100" height="80">
+					<h4>lorem ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, adipisci eum non quis, hic ut. Tenetur nisi sunt dignissimos sed et accusamus corporis, enim saepe?</p>
+				</div>
+				<div class="col xl3 l4 m6 s12 card center-align">
+					<img src="n9qdpfw4kwsjqox0lymi.png" width="100" height="80">
+					<h4>lorem ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, adipisci eum non quis, hic ut. Tenetur nisi sunt dignissimos sed et accusamus corporis, enim saepe?</p>
+				</div>
+				<div class="col xl3 l4 m6 s12 card center-align">
+					<img src="n9qdpfw4kwsjqox0lymi.png" width="100" height="80">
+					<h4>lorem ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, adipisci eum non quis, hic ut. Tenetur nisi sunt dignissimos sed et accusamus corporis, enim saepe?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="parallax-container">
+		<div class="parallax">
+			<img src="3.jpg" alt="">
+		</div>
+	</div>
+		<div class="section white">
+			<div class="row container">
+				<div class="header">Prallax</div>
+				<p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, neque, magnam! Pariatur amet nesciunt inventore harum optio? Temporibus fuga, vel hic perspiciatis et ipsam pariatur. Rerum molestias labore eveniet explicabo.</p>
+			</div>
+		</div>
+			<div class="parallax-container">
+		<div class="parallax">
+			<img src="2.jpg" alt="">
+		</div>
+		</div>
+	
+	<script src="jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script>
+		$('document').ready(function(){
+			$('.button-collapse').sideNav();
+			$(".carousel.carousel-slider").carousel({
+				fullWidth:true,
+				indicators:true,
+				duration:2000,		
+			});
+			$('.parallax').parallax();
+		})
+	</script>
+</body>
+</html>

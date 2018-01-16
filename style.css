@@ -1,0 +1,10 @@
+nav{
+	background: #126135;
+}
+.card{
+	background-color: #ccc;
+	border:1px solid #000;
+}
+.card:hover{
+	background-color: #aaa;
+}
