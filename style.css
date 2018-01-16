@@ -8,3 +8,6 @@ nav{
 .card:hover{
 	background-color: #aaa;
 }
+footer{
+	margin-bottom: 0;
+}

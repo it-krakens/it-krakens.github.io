@@ -15,7 +15,7 @@
 		<ul class="right hide-on-med-and-down">
 			<li><a href="#">Home</a></li>
 			<li><a href="#">About US</a></li>
-			<li><a href="#">CallBack</a></li>
+			<li><a class="modal-trigger"  href="#modal1">CallBack</a></li>
 			<li><a href="#">Project</a></li>
 		</ul>
 		<ul class="side-nav" id="mobile-demo">
@@ -73,9 +73,16 @@
 			<img src="2.jpg" alt="">
 		</div>
 		</div>
-	<footer>
-		<p>Сайт сделан Валентином Кулаковым на фреймворке MaterializeCSS</p>
-	</footer>
+	<footer class="page-footer">Footer</footer>
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4>modal</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit consectetur, qui dolores aliquid voluptatum quos recusandae velit saepe nobis vitae at? Vitae corporis, reiciendis laudantium, esse officiis sit delectus neque. Laboriosam explicabo reprehenderit id excepturi alias, molestias aspernatur obcaecati placeat.</p>
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class="modal-action modal-close wave-effect waves-green btn-flat">Close</a>
+		</div>
+	</div>
 	<script src="jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<script>
@@ -87,6 +94,9 @@
 				duration:2000,		
 			});
 			$('.parallax').parallax();
+			$('.modal').modal({
+				opacity:0.9,
+			});
 		})
 	</script>
 </body>
